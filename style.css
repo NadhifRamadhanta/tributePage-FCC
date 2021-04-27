@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 80%;
+    background-color: lightgray;
+    margin: 50px auto;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .8);
+    border-radius: 3px;
+}
+
+.title{
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-div{
+
+    width: 100%;
+    height: 80vmin;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-div #image{
+    padding: 10px;
+    max-height: 90%;
+    max-width: 80%;
+}
+
+#tribute-info{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tribute-info h2{
+    padding: 15px;
+}
+
+#tribute-info img{
+    width: 70%;
+}
+
+#tribute-info .biodata{
+ text-align: center;
+}
+
+#tribute-info .biodata ul{
+    list-style: none;
+    line-height: 50px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#tribute-info .career{
+    text-align: center;
+}
+
+#tribute-info .career ul{
+    list-style: none;
+    line-height: 50px;
+    text-align: start;
+}
+
+#tribute-info .career li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tribute-info .discography{
+    text-align: center;
+}
+
+
+#tribute-info .discography ul{
+    list-style: none;
+    line-height: 50px;
+    text-align: start;
+}
+
+#tribute-info .discography li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tribute-info .social{
+    text-align: center;
+}
